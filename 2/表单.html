@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>表单</title>
+</head>
+<body>
+    <fieldset>
+        <legend>基本信息</legend>
+        <form id="testform" method="get" action="">
+            姓名<input type="text" name="name1" placeholder="请输入姓名">
+            <br/>
+            年龄<input type="number" name="age" min="1">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>你想在哪里收到邮件？</legend>
+        <form id="testform" method="get" action="">
+            邮箱<input type="email" name="email" placeholder="请输入邮箱">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>收入情况</legend>
+        <form id="testform" method="get" action="">
+            月收入<input type="number" name="name2" min="0" step="1000">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>选取提交文件</legend>
+        <formid="testform" method="get" action="">
+            文件<button>选择文件</button>
+        </form>
+    </fieldset>
+</body>
+</html>
